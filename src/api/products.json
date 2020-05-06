@@ -1,0 +1,230 @@
+{
+  "products":[
+    {
+      "id": 1,
+      "name": "brown chair",
+      "price": 1000,
+      "status": "best seller",
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 2,
+      "name": "white chair",
+      "price": 300,
+      "status": "",
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 3,
+      "name": "blue chair",
+      "price": 2000,
+      "status": "best seller",
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 4,
+      "name": "selver table",
+      "price": 3000,
+      "status": "best rate",
+      "image": "/images/frozen.png",
+      "evaluation":3,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 5,
+      "name": "zebra chair",
+      "price": 3000,
+      "status": "best seller",
+      "image": "/images/frozen.png",
+      "evaluation":4,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 6,
+      "name": "gray big chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":4,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 7,
+      "name": "gold table",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 8,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 9,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 10,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 11,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 12,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 13,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 14,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 15,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 16,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 17,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 18,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 19,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 20,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 21,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    },
+    {
+      "id": 22,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+    ,
+    {
+      "id": 22,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+    ,
+    {
+      "id": 22,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+    ,
+    {
+      "id": 22,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+    ,
+    {
+      "id": 22,
+      "name": "green chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+    ,
+    {
+      "id": 22,
+      "name": "whie chair",
+      "price": 3000,
+      "image": "/images/frozen.png",
+      "evaluation":5,
+      "descreption": "Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+$mainColor: #06162a;
+
+// start navbar
+.navbar {
+  background-color: $mainColor;
+  padding: 0 !important;
+  padding: 0px 15px 0px 15px !important;
+  .navbar-brand {
+    color: #fff;
+    &:focus {
+      color: #fff !important;
+    }
+    &:hover {
+      color: #fff !important;
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      color: #fff !important;
+      padding: 20px !important;
+    }
+    .active {
+      background-color: #fff;
+      color: $mainColor !important;
+    }
+  }
+}
+
+// product-component
+
+.product-component {
+  .card {
+    margin-top: 10px;
+    img {
+      width: 30%;
+      margin: 0 auto;
+    }
+    .btn-link {
+      position: absolute;
+      right: 3%;
+      bottom: 2%;
+      border: 2px solid $mainColor;
+      color: $mainColor;
+    }
+  }
+}
+
+.product-details{
+  .btn-add{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    .fa-shopping-cart{
+      font-size: 20px;
+    }
+  }
+}
+
+.carousel{
+  width: 100% !important;
+  .slide {
+    .legend {
+      width: 20% !important;
+      position: absolute !important;
+      top: 0 !important;
+      height: 43px !important;
+      right: 100% !important;
+      background: #06162a !important;
+      line-height: 27px !important;
+    }
+  }
+  .thumb{
+    width: 13% !important;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer;
+    &:hover{
+      border: 1px solid $mainColor !important;
+    }
+  }
+  .thumb.selected{
+    border: 1px solid $mainColor !important;
+  }
+  .slider-wrapper.axis-horizontal{
+    .slider{
+      .slide{
+        background-color: #FFF;
+      }
+    }
+  }
+  .carousel-status{
+    color: $mainColor !important;
+  }
+  .control-arrow:last-of-type{
+    &:hover{
+      opacity: inherit;
+      background-color: inherit !important;
+    }
+    &:focus{
+      background-color: inherit !important;
+    }
+    &::before{
+      font-family: "Font Awesome 5 Free" !important;
+      font-weight: 900;
+      content: '\f105' !important;
+      color: #000 !important;
+    }
+  }
+  .control-arrow:first-of-type{
+    &:hover{
+      opacity: inherit;
+      background-color: inherit !important;
+    }
+    &:focus{
+      background-color: inherit !important;
+    }
+    &::before{
+      font-family: "Font Awesome 5 Free" !important;
+      font-weight: 900;
+      content: '\f053' !important;
+      color: #000 !important;
+    }
+  }
+}
+
+.scrol-feed{
+  margin-top: 200px;
+}
