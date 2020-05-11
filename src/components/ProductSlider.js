@@ -11,29 +11,23 @@ function ProductSlider() {
         // onClickItem={onClickItem}
         // onClickThumb={onClickThumb}
       >
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 1</p>
+        <div className="slider-image">
+          <img src="/images/frozen.png" />
+          <button className="legend">
+            <i className="fas fa-shopping-cart"></i>
+          </button>
         </div>
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 2</p>
+        <div className="slider-image">
+          <img src="/images/frozen.png" />
+          <button className="legend">
+            <i className="fas fa-shopping-cart"></i>
+          </button>
         </div>
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 3</p>
-        </div>
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 4</p>
-        </div>
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 5</p>
-        </div>
-        <div>
-          <img src="/images/frozen.png" style={{ width: "15%" }} />
-          <p className="legend">Legend 6</p>
+        <div className="slider-image">
+          <img src="/images/frozen.png" />
+          <button className="legend">
+            <i className="fas fa-shopping-cart"></i>
+          </button>
         </div>
       </Carousel>
     </div>

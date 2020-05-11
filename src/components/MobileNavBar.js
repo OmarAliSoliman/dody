@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 class MobileNavBar extends Component {
   openNav = () => {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "100px";
   };
 
   closeNav = () => {
@@ -19,23 +19,34 @@ class MobileNavBar extends Component {
           <span className="closebtn" onClick={this.closeNav}>
             &times;
           </span>
-          <Link className="navbar-brand" to="/">
-            <img
-              src="https://img.icons8.com/ios/32/000000/animation.png"
-              alt="Logo"
-            />
-          </Link>
-          <NavLink activeClassName="mobile-active-link" exact to="/">
-            Products
-          </NavLink>
-          <NavLink activeClassName="mobile-active-link" exact to="/cart">
-            Cart
-          </NavLink>
-          {/* <NavLink activeClassName="mobile-active-link" exact to="/about">About</NavLink> */}
+          <div className="links">
+            <NavLink activeClassName="mobile-active-link" exact to="/">
+              <i className="fa fa-home" aria-hidden="true"></i>
+            </NavLink>
+            <NavLink activeClassName="mobile-active-link" exact to="/cart">
+              <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+            </NavLink>
+            <NavLink
+              className="nav-link"
+              activeClassName="mobile-active-link"
+              exact
+              to="/scroll-feed"
+            >
+              <i className="fab fa-facebook"></i>
+            </NavLink>
+            <NavLink
+              className="nav-link"
+              activeClassName="mobile-active-link"
+              exact
+              to="/mail-login"
+            >
+              <i className="fas fa-user" aria-hidden="true"></i>
+            </NavLink>
+          </div>
         </div>
-        <div className="navbar side-nav-button">
+        <div onClick={this.openNav} className="navbar side-nav-button">
           <div className="container">
-            <span onClick={this.openNav}>
+            <span>
               {" "}
               <i className="fas fa-bars"></i>{" "}
             </span>
